@@ -1,0 +1,4 @@
+from math import sqrt
+num = int(input(' Choose a number: '))
+raiz = sqrt(num)
+print(' The square root of the number {} is {:.2f}'.format(num,raiz))
